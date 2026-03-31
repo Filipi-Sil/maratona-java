@@ -13,6 +13,7 @@ public class Aula02TiposPrimitivos {
 		boolean falso = false;
 		char caractere = 87;
 		String nome = "Filipi";
+		var bla = true;
 		
 		System.out.println("a idade é "+age+ " anos");
 		System.out.println(caractere);
@@ -23,6 +24,6 @@ public class Aula02TiposPrimitivos {
 		System.out.println(salarioFloat);
 		System.out.println(salarioDouble);
 		System.out.println(numeroGrande);
-		System.out.println("Olá meu nome é"+nome);
+		System.out.println("Olá meu nome é "+nome);
 	}
 }
