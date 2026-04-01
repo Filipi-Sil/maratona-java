@@ -25,5 +25,6 @@ public class Aula02TiposPrimitivos {
 		System.out.println(salarioDouble);
 		System.out.println(numeroGrande);
 		System.out.println("Olá meu nome é "+nome);
+		System.out.println(bla);
 	}
 }
