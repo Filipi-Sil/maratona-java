@@ -15,7 +15,7 @@ public class Aula04Operadores {
 		System.out.println(resto);
 		
 		// < > <= >= == !=
-		System.out.println("Operadores Logicos");
+		System.out.println("Operadores Relacionais");;
 		boolean isDezMaiorQueVinte = 10 > 20;
 		boolean isDezMenorQueVinte = 10 < 20;
 		boolean isDezIgualVinte = 10 == 20;
@@ -24,5 +24,14 @@ public class Aula04Operadores {
 		System.out.println(isDezMenorQueVinte);
 		System.out.println(isDezIgualVinte);
 		System.out.println(isDezDiferenteVinte);
+		
+		// && || !
+		System.out.println("Operadores Logicos");
+		int idade = 29;
+		float salario = 3400F;
+		boolean isDentroDaLeiMaiorQue30 = idade >= 30 && salario >= 4612;
+		boolean isDentroDaLeiMenorQue30 = idade < 30 && salario >= 3381;
+		System.out.println("Você está dentro da lei maior que 30? "+isDentroDaLeiMaiorQue30);
+		System.out.println("Você está dentro da lei menor que 30? "+isDentroDaLeiMenorQue30);
 	}
 }
