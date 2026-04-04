@@ -41,5 +41,29 @@ public class Aula04Operadores {
 		
 		System.out.println("Você pode comprar um Playstation? "+isPlaystationCompravel);
 		
+		//= += -= *= /= %=
+		System.out.println("-Operadores de Atribuição-");
+		double bonus = 1800;//1800
+		bonus += 1000;//2800
+		bonus -= 1000;//1800
+		bonus *= 2;//3600
+		bonus /= 2;//1800
+		bonus %= 2;//0
+		System.out.println(bonus);	
+		
+		//++ --
+		System.out.println("-Operadores Unarios-");
+		int contador = 0;
+		contador++;
+		contador--;
+		++contador;
+		--contador;
+		System.out.println(contador);
+		int contador2 = 0;
+		System.out.println(contador2++);
+		System.out.println(contador2);
+		System.out.println(--contador2);
+		;
+		
 	}
 }
