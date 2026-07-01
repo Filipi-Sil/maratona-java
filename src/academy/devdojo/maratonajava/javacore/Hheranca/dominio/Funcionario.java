@@ -6,6 +6,11 @@ public class Funcionario extends Pessoa {
 	public void imprime() {
 		super.imprime();
 		System.out.println(this.salario);
+		this.nome = "Berinjelo";
+	}
+	
+	public void relatorioPagamento() {
+		System.out.println("Eu "+this.nome+" recebi o salario de "+this.salario);
 	}
 	
 	public double getSalario() {

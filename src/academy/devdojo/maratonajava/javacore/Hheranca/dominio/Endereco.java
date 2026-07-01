@@ -3,9 +3,9 @@ package academy.devdojo.maratonajava.javacore.Hheranca.dominio;
 public class Endereco {
 	private String rua;
 	private String cep;
-
+	
 	public String getRua() {
-		return rua;
+		return rua;		
 	}
 
 	public void setRua(String rua) {
