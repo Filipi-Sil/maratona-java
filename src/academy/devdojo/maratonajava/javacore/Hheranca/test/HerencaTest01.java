@@ -13,7 +13,7 @@ public class HerencaTest01 {
 		pessoa.setEndereco(endereco);
 		pessoa.imprime();
 		System.out.println("--------------");
-		Funcionario funcionario = new Funcionario("Masashi Kishimoto",245678);
+		Funcionario funcionario = new Funcionario("Masashi Kishimoto");
 		funcionario.setCpf("222.367.985.46");
 		funcionario.setEndereco(endereco);
 		funcionario.setSalario(4974.48);
