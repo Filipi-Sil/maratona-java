@@ -6,6 +6,7 @@ public enum TipoCliente {
 
 	public final int VALOR;
 	private String nomeRelatorio;
+	
 	TipoCliente(int valor, String nomeRelatorio) {
 		this.VALOR = valor;
 		this.nomeRelatorio = nomeRelatorio;
