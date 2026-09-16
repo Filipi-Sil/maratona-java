@@ -15,7 +15,7 @@ public class Cliente {
 
 	@Override
 	public String toString() {
-		return "Cliente (nome = " + nome + ", tipoCliente = " + tipoCliente.getNomeRelatorio() + ", tipoClienteInt = " + tipoCliente.VALOR + ", tipoPagamento = " + tipoPagamento
+		return "Cliente (nome = " + nome + ", tipoCliente = " + tipoCliente.getNomeRelatorio() + ", tipoClienteInt = " + tipoCliente.getValor() + ", tipoPagamento = " + tipoPagamento
 				+ ")";
 	}
 	
