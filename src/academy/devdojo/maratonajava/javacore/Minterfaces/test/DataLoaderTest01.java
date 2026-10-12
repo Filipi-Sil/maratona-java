@@ -8,5 +8,14 @@ public class DataLoaderTest01 {
 		FileLoader fileloader = new FileLoader();
 		databaseloader.load();
 		fileloader.load();
+		
+		databaseloader.remove();
+		fileloader.remove();
+		
+		databaseloader.checkPermission();
+		fileloader.checkPermission();
+		
+		DataLoader.retriveMaxDataSize();
+		DatabaseLoader.retriveMaxDataSize();
 	}
 }
